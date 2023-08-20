@@ -5,9 +5,9 @@ const ktmDuke = [
     colorByPopularity: ["ceramic_White", "Electronic_Orange"],
   },
   {
-    model: "Crossfire",
-    speedStats: { topSpeed: 150, zero_70: 8 },
-    colorByPopularity: ["Red", "Balck"],
+    model: "Duke 250",
+    speedStats: { topSpeed: 180, zero_70: 8 },
+    colorByPopularity: ["Silver", "Balck"],
   },
 ];
 

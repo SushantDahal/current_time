@@ -30,21 +30,21 @@ function Duke() {
           <tr>
             <th>Name</th>
             <th>Top Speped</th>
-            <th>0-60 (sec)</th>
+            <th>0-60 (k/m)</th>
             <th>Color</th>
             <th>Optional Color</th>
           </tr>
           <tr>
             <td>{duke.model}</td>
             <td> {dukeTopSpeed}</td>
-            <td> {dukeInitial}</td>
+            <td> {dukeInitial + " " + "sec"}</td>
             <td>{color1}</td>
             <td>{color2}</td>
           </tr>
           <tr>
             <td>{Crossfire.model}</td>
             <td>{cfTopSpeed}</td>
-            <td> {cf_initail}</td>
+            <td> {cf_initail + " " + "sec"}</td>
             <td>{cf_color1}</td>
             <td>{cf_color2}</td>
           </tr>
