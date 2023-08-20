@@ -6,7 +6,6 @@
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 100vh;
   background-color: rgb(83, 79, 79);
@@ -16,7 +15,7 @@ body {
   width: 700px;
   max-width: 800px;
   border-radius: 30px;
-
+  margin-top: 2rem;
   background: rgb(83, 79, 79);
   box-shadow: 20px 20px 60px rgb(83, 79, 79), -20px -20px 60px #ffffff;
   text-align: center;
@@ -48,4 +47,40 @@ button:hover {
   background-color: #5a5252;
   box-shadow: 20px 20px 60px rgb(83, 79, 79), 20px 20px 60px black;
   transition: 0.4s;
+}
+.duke {
+  margin-top: 2rem;
+}
+table th {
+  color: white;
+  padding: 20px;
+  background-color: rgb(83, 79, 79);
+  border: 1px solid white;
+}
+h2 {
+  text-align: center;
+  margin: 40px auto 0 auto;
+  color: white;
+  font-size: 2rem;
+}
+
+h2 .dukeName {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+}
+h2 .dukeName:hover {
+  color: blue;
+  transition: 0.3s;
+}
+table td {
+  border: 1px solid orange;
+  color: white;
+  padding: 20px;
+  background-color: rgb(83, 79, 79);
+}
+a {
+  color: white;
+  text-decoration: none;
 }
